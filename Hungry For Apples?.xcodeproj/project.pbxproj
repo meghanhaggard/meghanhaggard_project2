@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B26357C21BCD98AF00D416AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26357C11BCD98AF00D416AC /* AppDelegate.swift */; };
+		B26357C41BCD98AF00D416AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26357C31BCD98AF00D416AC /* ViewController.swift */; };
+		B26357C71BCD98AF00D416AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26357C51BCD98AF00D416AC /* Main.storyboard */; };
+		B26357C91BCD98AF00D416AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26357C81BCD98AF00D416AC /* Assets.xcassets */; };
+		B26357CC1BCD98AF00D416AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26357CA1BCD98AF00D416AC /* LaunchScreen.storyboard */; };
+		B26357D71BCD98AF00D416AC /* Hungry_For_Apples_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26357D61BCD98AF00D416AC /* Hungry_For_Apples_Tests.swift */; };
+		B26357E21BCD98AF00D416AC /* Hungry_For_Apples_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26357E11BCD98AF00D416AC /* Hungry_For_Apples_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B26357D31BCD98AF00D416AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B26357B61BCD98AF00D416AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B26357BD1BCD98AF00D416AC;
+			remoteInfo = "Hungry For Apples?";
+		};
+		B26357DE1BCD98AF00D416AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B26357B61BCD98AF00D416AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B26357BD1BCD98AF00D416AC;
+			remoteInfo = "Hungry For Apples?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B26357BE1BCD98AF00D416AC /* Hungry For Apples?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hungry For Apples?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26357C11BCD98AF00D416AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B26357C31BCD98AF00D416AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B26357C61BCD98AF00D416AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B26357C81BCD98AF00D416AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26357CB1BCD98AF00D416AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B26357CD1BCD98AF00D416AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26357D21BCD98AF00D416AC /* Hungry For Apples?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hungry For Apples?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26357D61BCD98AF00D416AC /* Hungry_For_Apples_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry_For_Apples_Tests.swift; sourceTree = "<group>"; };
+		B26357D81BCD98AF00D416AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26357DD1BCD98AF00D416AC /* Hungry For Apples?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hungry For Apples?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26357E11BCD98AF00D416AC /* Hungry_For_Apples_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry_For_Apples_UITests.swift; sourceTree = "<group>"; };
+		B26357E31BCD98AF00D416AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26357BB1BCD98AF00D416AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26357CF1BCD98AF00D416AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26357DA1BCD98AF00D416AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B26357B51BCD98AF00D416AC = {
+			isa = PBXGroup;
+			children = (
+				B26357C01BCD98AF00D416AC /* Hungry For Apples? */,
+				B26357D51BCD98AF00D416AC /* Hungry For Apples?Tests */,
+				B26357E01BCD98AF00D416AC /* Hungry For Apples?UITests */,
+				B26357BF1BCD98AF00D416AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B26357BF1BCD98AF00D416AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B26357BE1BCD98AF00D416AC /* Hungry For Apples?.app */,
+				B26357D21BCD98AF00D416AC /* Hungry For Apples?Tests.xctest */,
+				B26357DD1BCD98AF00D416AC /* Hungry For Apples?UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B26357C01BCD98AF00D416AC /* Hungry For Apples? */ = {
+			isa = PBXGroup;
+			children = (
+				B26357C11BCD98AF00D416AC /* AppDelegate.swift */,
+				B26357C31BCD98AF00D416AC /* ViewController.swift */,
+				B26357C51BCD98AF00D416AC /* Main.storyboard */,
+				B26357C81BCD98AF00D416AC /* Assets.xcassets */,
+				B26357CA1BCD98AF00D416AC /* LaunchScreen.storyboard */,
+				B26357CD1BCD98AF00D416AC /* Info.plist */,
+			);
+			path = "Hungry For Apples?";
+			sourceTree = "<group>";
+		};
+		B26357D51BCD98AF00D416AC /* Hungry For Apples?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B26357D61BCD98AF00D416AC /* Hungry_For_Apples_Tests.swift */,
+				B26357D81BCD98AF00D416AC /* Info.plist */,
+			);
+			path = "Hungry For Apples?Tests";
+			sourceTree = "<group>";
+		};
+		B26357E01BCD98AF00D416AC /* Hungry For Apples?UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B26357E11BCD98AF00D416AC /* Hungry_For_Apples_UITests.swift */,
+				B26357E31BCD98AF00D416AC /* Info.plist */,
+			);
+			path = "Hungry For Apples?UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B26357BD1BCD98AF00D416AC /* Hungry For Apples? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26357E61BCD98AF00D416AC /* Build configuration list for PBXNativeTarget "Hungry For Apples?" */;
+			buildPhases = (
+				B26357BA1BCD98AF00D416AC /* Sources */,
+				B26357BB1BCD98AF00D416AC /* Frameworks */,
+				B26357BC1BCD98AF00D416AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hungry For Apples?";
+			productName = "Hungry For Apples?";
+			productReference = B26357BE1BCD98AF00D416AC /* Hungry For Apples?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B26357D11BCD98AF00D416AC /* Hungry For Apples?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26357E91BCD98AF00D416AC /* Build configuration list for PBXNativeTarget "Hungry For Apples?Tests" */;
+			buildPhases = (
+				B26357CE1BCD98AF00D416AC /* Sources */,
+				B26357CF1BCD98AF00D416AC /* Frameworks */,
+				B26357D01BCD98AF00D416AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B26357D41BCD98AF00D416AC /* PBXTargetDependency */,
+			);
+			name = "Hungry For Apples?Tests";
+			productName = "Hungry For Apples?Tests";
+			productReference = B26357D21BCD98AF00D416AC /* Hungry For Apples?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B26357DC1BCD98AF00D416AC /* Hungry For Apples?UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26357EC1BCD98AF00D416AC /* Build configuration list for PBXNativeTarget "Hungry For Apples?UITests" */;
+			buildPhases = (
+				B26357D91BCD98AF00D416AC /* Sources */,
+				B26357DA1BCD98AF00D416AC /* Frameworks */,
+				B26357DB1BCD98AF00D416AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B26357DF1BCD98AF00D416AC /* PBXTargetDependency */,
+			);
+			name = "Hungry For Apples?UITests";
+			productName = "Hungry For Apples?UITests";
+			productReference = B26357DD1BCD98AF00D416AC /* Hungry For Apples?UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B26357B61BCD98AF00D416AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Meghan Haggard";
+				TargetAttributes = {
+					B26357BD1BCD98AF00D416AC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					B26357D11BCD98AF00D416AC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B26357BD1BCD98AF00D416AC;
+					};
+					B26357DC1BCD98AF00D416AC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B26357BD1BCD98AF00D416AC;
+					};
+				};
+			};
+			buildConfigurationList = B26357B91BCD98AF00D416AC /* Build configuration list for PBXProject "Hungry For Apples?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B26357B51BCD98AF00D416AC;
+			productRefGroup = B26357BF1BCD98AF00D416AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B26357BD1BCD98AF00D416AC /* Hungry For Apples? */,
+				B26357D11BCD98AF00D416AC /* Hungry For Apples?Tests */,
+				B26357DC1BCD98AF00D416AC /* Hungry For Apples?UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B26357BC1BCD98AF00D416AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26357CC1BCD98AF00D416AC /* LaunchScreen.storyboard in Resources */,
+				B26357C91BCD98AF00D416AC /* Assets.xcassets in Resources */,
+				B26357C71BCD98AF00D416AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26357D01BCD98AF00D416AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26357DB1BCD98AF00D416AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B26357BA1BCD98AF00D416AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26357C41BCD98AF00D416AC /* ViewController.swift in Sources */,
+				B26357C21BCD98AF00D416AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26357CE1BCD98AF00D416AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26357D71BCD98AF00D416AC /* Hungry_For_Apples_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26357D91BCD98AF00D416AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26357E21BCD98AF00D416AC /* Hungry_For_Apples_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B26357D41BCD98AF00D416AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B26357BD1BCD98AF00D416AC /* Hungry For Apples? */;
+			targetProxy = B26357D31BCD98AF00D416AC /* PBXContainerItemProxy */;
+		};
+		B26357DF1BCD98AF00D416AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B26357BD1BCD98AF00D416AC /* Hungry For Apples? */;
+			targetProxy = B26357DE1BCD98AF00D416AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B26357C51BCD98AF00D416AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26357C61BCD98AF00D416AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B26357CA1BCD98AF00D416AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26357CB1BCD98AF00D416AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B26357E41BCD98AF00D416AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B26357E51BCD98AF00D416AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B26357E71BCD98AF00D416AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hungry For Apples?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "University-of-Akron.Hungry-For-Apples-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B26357E81BCD98AF00D416AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hungry For Apples?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "University-of-Akron.Hungry-For-Apples-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B26357EA1BCD98AF00D416AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hungry For Apples?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "University-of-Akron.Hungry-For-Apples-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hungry For Apples?.app/Hungry For Apples?";
+			};
+			name = Debug;
+		};
+		B26357EB1BCD98AF00D416AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hungry For Apples?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "University-of-Akron.Hungry-For-Apples-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hungry For Apples?.app/Hungry For Apples?";
+			};
+			name = Release;
+		};
+		B26357ED1BCD98AF00D416AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hungry For Apples?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "University-of-Akron.Hungry-For-Apples-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hungry For Apples?";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B26357EE1BCD98AF00D416AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hungry For Apples?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "University-of-Akron.Hungry-For-Apples-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hungry For Apples?";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B26357B91BCD98AF00D416AC /* Build configuration list for PBXProject "Hungry For Apples?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26357E41BCD98AF00D416AC /* Debug */,
+				B26357E51BCD98AF00D416AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26357E61BCD98AF00D416AC /* Build configuration list for PBXNativeTarget "Hungry For Apples?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26357E71BCD98AF00D416AC /* Debug */,
+				B26357E81BCD98AF00D416AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B26357E91BCD98AF00D416AC /* Build configuration list for PBXNativeTarget "Hungry For Apples?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26357EA1BCD98AF00D416AC /* Debug */,
+				B26357EB1BCD98AF00D416AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B26357EC1BCD98AF00D416AC /* Build configuration list for PBXNativeTarget "Hungry For Apples?UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26357ED1BCD98AF00D416AC /* Debug */,
+				B26357EE1BCD98AF00D416AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B26357B61BCD98AF00D416AC /* Project object */;
+}
