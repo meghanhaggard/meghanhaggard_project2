@@ -20,8 +20,22 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func changeColor(sender: UIButton) {
+    func changeButtonTitle(sender: UIButton) {
         
+// declaring random rgb values for input into UIColor initialization function
+// types are cast from double (drand48() returns type double) to CGFloat
+        let red = CGFloat(drand48() % 255)
+        let green = CGFloat(drand48() % 255)
+        let blue = CGFloat(drand48() % 255)
+        
+// using RGB values to set background color of sender (button) to random color
+        sender.layer.backgroundColor = UIColor.init(red: red, green: green, blue: blue, alpha: 1.0).CGColor
+        
+        
+    }
+    
+    @IBAction func buttonTapped(sender: UIButton) {
+        changeButtonTitle(sender)
         
     }
     
