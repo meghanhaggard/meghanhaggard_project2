@@ -14,6 +14,7 @@
 		B26357CC1BCD98AF00D416AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26357CA1BCD98AF00D416AC /* LaunchScreen.storyboard */; };
 		B26357D71BCD98AF00D416AC /* Hungry_For_Apples_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26357D61BCD98AF00D416AC /* Hungry_For_Apples_Tests.swift */; };
 		B26357E21BCD98AF00D416AC /* Hungry_For_Apples_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26357E11BCD98AF00D416AC /* Hungry_For_Apples_UITests.swift */; };
+		B26357F21BCDD5FE00D416AC /* facts.plist in Resources */ = {isa = PBXBuildFile; fileRef = B26357F11BCDD5FE00D416AC /* facts.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B26357DD1BCD98AF00D416AC /* Hungry For Apples?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hungry For Apples?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26357E11BCD98AF00D416AC /* Hungry_For_Apples_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry_For_Apples_UITests.swift; sourceTree = "<group>"; };
 		B26357E31BCD98AF00D416AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26357F11BCDD5FE00D416AC /* facts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = facts.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				B26357C51BCD98AF00D416AC /* Main.storyboard */,
 				B26357C81BCD98AF00D416AC /* Assets.xcassets */,
 				B26357CA1BCD98AF00D416AC /* LaunchScreen.storyboard */,
+				B26357F11BCDD5FE00D416AC /* facts.plist */,
 				B26357CD1BCD98AF00D416AC /* Info.plist */,
 			);
 			path = "Hungry For Apples?";
@@ -230,6 +233,7 @@
 			files = (
 				B26357CC1BCD98AF00D416AC /* LaunchScreen.storyboard in Resources */,
 				B26357C91BCD98AF00D416AC /* Assets.xcassets in Resources */,
+				B26357F21BCDD5FE00D416AC /* facts.plist in Resources */,
 				B26357C71BCD98AF00D416AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
