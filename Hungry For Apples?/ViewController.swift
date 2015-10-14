@@ -34,17 +34,13 @@ class ViewController: UIViewController {
         sender.layer.backgroundColor = UIColor.init(red: red, green: green, blue: blue, alpha: 0.5).CGColor
         
         // holds the path of the plist
-        let path = NSBundle.mainBundle().pathForResource("facts", ofType: "plist")
-        // initializes new dictionary to contents of plist
-        var dict : NSDictionary?
-        //let dict = NSDictionary(contentsOfFile: path!) as Dictionary
-        //print(dict!)
+        let documentDirectory = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
+        let path = documentDirectory.stringByAppendingPathComponent("facts.plist")
+        // reads data into NSArray from plist
+        var data = NSArray(contentsOfFile: path) as! [[String:String]]
         
+        // placeholder for now, will change to facts from plist later
         sender.setTitle("jokes", forState: UIControlState.Normal)
-        
-        
-        
-        //let myFacts : Array<String> = dictionary["appleFacts"] as! Array<String>
     }
     
     @IBAction func buttonTapped(sender: UIButton) {
