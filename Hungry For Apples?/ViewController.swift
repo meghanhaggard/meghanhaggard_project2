@@ -36,9 +36,15 @@ class ViewController: UIViewController {
         // holds the path of the plist
         let path = NSBundle.mainBundle().pathForResource("facts", ofType: "plist")
         // initializes new dictionary to contents of plist
-        let dictionary = NSDictionary(contentsOfFile: path!)
-        let factsList = dictionary["appleFacts"] as! [AnyObject]
+        var dict : NSDictionary?
+        //let dict = NSDictionary(contentsOfFile: path!) as Dictionary
+        //print(dict!)
         
+        sender.setTitle("jokes", forState: UIControlState.Normal)
+        
+        
+        
+        //let myFacts : Array<String> = dictionary["appleFacts"] as! Array<String>
     }
     
     @IBAction func buttonTapped(sender: UIButton) {
