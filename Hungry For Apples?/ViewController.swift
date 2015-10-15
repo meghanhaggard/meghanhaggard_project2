@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         // generating random number to display corresponding fact
         let factnumber = (arc4random() % 5) + 1
         
-        // displaying corresponging fact
+        // displaying corresponging fact 👀
         if factnumber == 1 {
             sender.setTitle(fact1, forState: UIControlState.Normal)
         }
