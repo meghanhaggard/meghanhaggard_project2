@@ -2,15 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>New item - 5</key>
+	<key>fact1</key>
 	<string>Apples are a fruit.</string>
-	<key>New item - 4</key>
+	<key>fact2</key>
 	<string>A peck of apples weighs 10.5 lbs.</string>
-	<key>New item - 3</key>
-	<string>2 lbs of apples yields one 9&quot; apple pie.</string>
-	<key>New item - 2</key>
-	<string>An apple a day keeps the doctor away.</string>
-	<key>New item</key>
+	<key>fact3</key>
+	<string>Apples are nutritious.</string>
+	<key>fact4</key>
+	<string>Apples are poisonous.</string>
+	<key>fact5</key>
 	<string>Apple seeds contain arsenic.</string>
 </dict>
 </plist>
